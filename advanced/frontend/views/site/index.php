@@ -41,11 +41,11 @@ $this->title = 'My Yii Application';
                      <input type='radio' name='legendpilihwarna'  value='3'/>Biru<br/>
                     <input type='radio' name='legendpilihwarna'  value='4'/>Hijau<br/>
                  </div>
-                 kelas:
+                 Kelas:
                
                     <div class="btn-group">
                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                            <span data-bind="label">pilih</span>&nbsp;<span class="caret"></span>
+                            <span data-bind="label">Pilih</span>&nbsp;<span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="#">2</a></li>
@@ -57,7 +57,7 @@ $this->title = 'My Yii Application';
                     </div>
                     <div class="checkbox">
                          <label>
-                            <input id="canggih" type="checkbox"> Canggih
+                            <input id="canggih" type="checkbox"> Tentukan Batas Manual
                          </label>
                     </div>                                 
                        <div  id="legendacanggihbox" style="min-height:160px ;width:100% ;border:1px solid #ccc;  padding:5px;  margin-left: auto;
