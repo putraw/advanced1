@@ -14,8 +14,8 @@ use yii\db\ActiveRecord;
 
 
 class Ambillistkoordinat  extends ActiveRecord{
-
-
+/*Kelas untuk testing database*/
+/* 
    public function ditest($test){
    $sql='SELECT * FROM data_makan';
       $connection=  Yii::$app->db;
@@ -35,7 +35,11 @@ class Ambillistkoordinat  extends ActiveRecord{
 echo "<p>".$dataReader->rowCount."</p>";
   
 return $namevalue;
-}
+}*/
+
+/* 
+Fungsi untuk 
+*/
 
  public function ambilNamaTabel(){
  // untuk test ouput http://localhost:8081/advanced1/advanced/frontend/web/index.php?r=site/ambilnamatabeldanatribut&ambil=nama_tabel
