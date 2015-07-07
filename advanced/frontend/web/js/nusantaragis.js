@@ -1023,6 +1023,7 @@ datalegendcanggih=datalegendcanggih+",,"+$("#legendacanggihbox input")[i].value;
         return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
     }
     function getNamakolom(nama_kolom) {
+        //nm = nama_kolom.substr(0, nama_kolom.length - 2);
         nm = nama_kolom.substr(0, nama_kolom.length - 1);
         return   nm.replace(/\s+/, "");
     }
