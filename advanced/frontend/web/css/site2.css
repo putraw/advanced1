@@ -1,0 +1,207 @@
+html {
+    height: 100%;
+   width: 100%;
+     margin:0px 0px 0px;
+             padding: 0px 0px 0px;
+}
+
+body {
+    height: 100%;
+   width: 100%;
+     margin:0px 0px 0px;
+             padding: 50px 0px 0px  0px;}
+
+
+
+   @media (min-width: 768px){
+#modalSnapshotdialog{
+
+  width: 100%;
+  
+}
+}
+.container{
+            height: 100%;
+            width: 100%;
+            margin:0px 0px ;
+             padding:-1000px 0px ;
+        }
+        .wrap{
+            height: 100%;
+            width: 100%;
+            margin:0px 0px 0px 0px;
+             padding:0px 0px 0px;
+        }
+        .a{
+            height: 100%;
+            width: 100%;
+            margin:0px 0px 0px 0px;
+             padding:0px 0px 0px;
+        }
+    
+.info {
+            padding: 6px 8px;
+            font: 14px/16px Arial, Helvetica, sans-serif;
+            background: white;
+            background: rgba(255,255,255,0.8);
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            border-radius: 5px;
+        }
+        .info h4 {
+            margin: 0 0 5px;
+            color: #777;
+        }
+
+        .legend {
+            text-align: left;
+            line-height: 18px;
+            color: #555;
+        }
+        .legend i {
+            width: 18px;
+            height: 18px;
+            float: left;
+            margin-right: 8px;
+            opacity: 0.7;
+        }
+        span#kotak{
+    width: 10px;
+background-color: yellow;   
+ border: 1px solid gray;
+padding-right:7px;
+padding-left:12px;
+margin-top: 10px;
+    margin-left: 1px;
+    margin-right: 5px;
+    font-size:10pt;
+
+
+}
+
+    #canvas-holder1 {
+      
+        margin: 0px 0px;
+    }
+    #canvas-holder2 {
+        margin: 0px 0px;
+    }
+    #chartjs-tooltip {
+        opacity: 1;
+        position: absolute;
+        background: rgba(0, 0, 0, .7);
+        color: white;
+        padding: 3px;
+        border-radius: 3px;
+        -webkit-transition: all .1s ease;
+        transition: all .1s ease;
+        pointer-events: none;
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+    .chartjs-tooltip-key{
+        
+        width:10px;
+        height:10px;
+    }
+
+.ui-helper-hidden-accessible { display:none; }
+
+
+
+#tags {
+    border:1px solid #cccccc;
+    border-radius: 3px 3px 3px 3px;
+    width: 97%;
+}
+    
+#tags:focus {
+    border-color:#00cc33;
+    box-shadow:0 0 10px #d5d5d9;
+    -webkit-box-shadow:outset 0 1px 9px #d5d5d9;
+    -moz-box-shadow:outset 0 1px 9px #d5d5d9;
+}
+
+/* min Jquery CSS elements for autocomplete */
+.ui-autocomplete {max-height: 150px;   overflow-y: auto;   /* prevent horizontal scrollbar */
+    overflow-x: hidden; position: absolute; cursor: pointer; }    
+.ui-menu { list-style:none; padding: 2px;  display:block; float: left; background-color:#f9f9f9; border: 1px solid #efefef; border-radius: 3px 3px 3px 3px; }
+
+.ui-menu .ui-menu {
+        margin-top: -3px;
+}
+
+.ui-menu .ui-menu-item a {
+        text-decoration:none;
+        display:block;
+        padding:.1em .3em;
+        line-height:1.5;
+        zoom:1;
+}
+.ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active {
+        font-weight: bold;
+}
+
+.btn-input {
+   display: block;
+}
+
+.btn-input .btn.form-control {
+    text-align: left;
+}
+
+.btn-input .btn.form-control span:first-child {
+   left: 10px;
+   overflow: hidden;
+   position: absolute;
+   right: 25px;
+}
+
+.btn-input .btn.form-control .caret {
+   margin-top: -1px;
+   position: absolute;
+   right: 10px;
+   top: 50%;
+}
+#radiopilihwarna{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.modal-dialog-center {
+    margin-top: 25%;
+}
+.glyphicon.spinning {
+    animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+#modalLoading{
+    z-index: 100000;
+}
+
+.custom-combobox {
+    position: relative;
+    display: inline-block;
+  }
+  .custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+    /* support: IE7 */
+    *height: 1.7em;
+    *top: 0.1em;
+  }
+  .custom-combobox-input {
+    margin: 0;
+    padding: 0.3em;
+  }
