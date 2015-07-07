@@ -1,4 +1,6 @@
-# advanced1
+# NusantaraGIS
+
+WebGIS Menggunakan MapServer
 
 	C:\ms4w\Apache\htdocs\advanced1\advanced\common\config\main-local.php // sesuaikan dengan koneksi pgsql
 
